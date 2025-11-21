@@ -93,17 +93,3 @@ HUD panels (top-left/right) mirror these controls and display the live FPS so th
 
 ---
 
-### 🐞 Troubleshooting
-- Blank screen? Ensure the `#app` container from `src/index.html` exists after editing layout files.
-- Performance drops after heavy cuts? Call `R` to reset or reduce `segmentsX/Y` when instantiating `ClothPhysics`.
-- Pivot doesn’t grab? Only top-edge particles (row `y === 0`) can be pinned; try lowering the pivot or increasing cloth height to widen selection.
-
----
-
-### 📄 License
-Specify your preferred license (e.g., MIT) if you plan to open-source this repo. Add a `LICENSE` file so GitHub renders it automatically.
-
----
-
-### 🙌 Acknowledgements
-Built with [Three.js](https://threejs.org/) and [Vite](https://vitejs.dev/). Inspired by classic cloth demos from the Three.js community and adapted for dynamic cutting experiments.
