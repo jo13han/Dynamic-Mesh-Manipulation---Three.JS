@@ -5,7 +5,6 @@ An interactive cloth simulation playground built with Three.js and Vite. It show
 
 ---
 
-### ✨ Highlights
 - Custom cloth physics powered by Verlet integration, structural/shear/bend constraints, and organic tearing thresholds.
 - Drag-to-cut tool with spherical and segment-based carving for both precise slices and organic perforations.
 - Pivot management system (add/move/remove) that pins cloth vertices to arbitrary anchor points.
